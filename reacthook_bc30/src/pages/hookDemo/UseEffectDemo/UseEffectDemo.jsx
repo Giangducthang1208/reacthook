@@ -19,7 +19,6 @@ export default function UseEffectDemo(props) {
         </h3>
         <div className='row'>
             {renderProduct()}
-            
         </div>
     </div>
   )
