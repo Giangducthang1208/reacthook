@@ -15,7 +15,7 @@ export default function UseEffectDemo(props) {
     return (
     <div className="container">
         <h3 className='row'>
-            Shose Appss
+            Shose App
         </h3>
         <div className='row'>
             {renderProduct()}
