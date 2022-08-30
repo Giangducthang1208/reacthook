@@ -45,7 +45,7 @@ export default function HeaderHome() {
                   UseState
                 </NavLink>
                 <NavLink className="dropdown-item" to="/useeffect">
-                  UseEffectwwwx
+                  UseEffect
                 </NavLink>
                 
               </div>
