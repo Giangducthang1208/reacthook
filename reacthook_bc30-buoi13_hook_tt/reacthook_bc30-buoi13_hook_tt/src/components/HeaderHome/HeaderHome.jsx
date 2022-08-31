@@ -6,7 +6,7 @@ export default function HeaderHome() {
     <div>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <NavLink className="navbar-brand" to="/">
-          Projecr Hook
+          Project Hook
         </NavLink>
         <button
           className="navbar-toggler d-lg-none"
@@ -20,14 +20,19 @@ export default function HeaderHome() {
         <div className="collapse navbar-collapse" id="collapsibleNavId">
           <ul className="navbar-nav me-auto mt-2 mt-lg-0">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Home <span className="visually-hidden">(current)</span>
-              </a>
+              <NavLink className="nav-link" to="/">
+                Home 
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
+              <NavLink className="nav-link" to="/logindemo">
+                Login
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/antd">
+                AntD demo
+              </NavLink>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -45,9 +50,26 @@ export default function HeaderHome() {
                   UseState
                 </NavLink>
                 <NavLink className="dropdown-item" to="/useeffect">
-                  UseEffect
+                  useeffect
                 </NavLink>
-                
+                <NavLink className="dropdown-item" to="/usecallback">
+                  usecallback
+                </NavLink>
+                <NavLink className="dropdown-item" to="/usememo">
+                  usememo
+                </NavLink>
+                <NavLink className="dropdown-item" to="/useref">
+                  useref
+                </NavLink>
+                <NavLink className="dropdown-item" to="/useredux">
+                  demo redux (number)
+                </NavLink>
+                <NavLink className="dropdown-item" to="/reduxfbapp">
+                  Facebook app
+                </NavLink>
+                <NavLink className="dropdown-item" to="/customhook">
+                  useRoute(custom hook)
+                </NavLink>
               </div>
             </li>
           </ul>

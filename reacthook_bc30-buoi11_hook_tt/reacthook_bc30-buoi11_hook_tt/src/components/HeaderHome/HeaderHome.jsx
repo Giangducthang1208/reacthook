@@ -6,7 +6,7 @@ export default function HeaderHome() {
     <div>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <NavLink className="navbar-brand" to="/">
-          Projecr Hook
+          Project Hook
         </NavLink>
         <button
           className="navbar-toggler d-lg-none"
@@ -45,9 +45,20 @@ export default function HeaderHome() {
                   UseState
                 </NavLink>
                 <NavLink className="dropdown-item" to="/useeffect">
-                  UseEffect
+                  useeffect
                 </NavLink>
-                
+                <NavLink className="dropdown-item" to="/usecallback">
+                  usecallback
+                </NavLink>
+                <NavLink className="dropdown-item" to="/usememo">
+                  usememo
+                </NavLink>
+                <NavLink className="dropdown-item" to="/useref">
+                  useref
+                </NavLink>
+                <NavLink className="dropdown-item" to="/useredux">
+                  demo redux (number)
+                </NavLink>
               </div>
             </li>
           </ul>
